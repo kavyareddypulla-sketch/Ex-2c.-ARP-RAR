@@ -53,11 +53,6 @@ while True:
 ```
 
 ## OUPUT - ARP
-## CLIENT 
-
-<img width="697" height="128" alt="image" src="https://github.com/user-attachments/assets/d9885c2e-f333-4fb4-9324-c470912c4ebf" />
-
-
 ## SERVER
 
 <img width="857" height="253" alt="image" src="https://github.com/user-attachments/assets/8426ef3b-f295-4261-8103-bd2a07904c36" />
