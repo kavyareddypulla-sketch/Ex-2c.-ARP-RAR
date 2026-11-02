@@ -62,6 +62,10 @@ while True:
 
 <img width="857" height="253" alt="image" src="https://github.com/user-attachments/assets/8426ef3b-f295-4261-8103-bd2a07904c36" />
 
+## CLIENT 
+
+<img width="697" height="128" alt="image" src="https://github.com/user-attachments/assets/d9885c2e-f333-4fb4-9324-c470912c4ebf" />
+
 ## PROGRAM - RARP
 ## SERVER
 ```
@@ -84,7 +88,7 @@ while True:
 
 ## OUPUT -RARP
 ##SERVER
-<img width="793" height="265" alt="image" src="https://github.com/user-attachments/assets/b26a0d15-1a42-44fc-96b8-17c5b8080c84" />
+<img width="782" height="270" alt="image" src="https://github.com/user-attachments/assets/ed537a58-b455-4deb-8d7c-a95d47bb1cc0" />
 
 ## CLIENT
 <img width="782" height="167" alt="image" src="https://github.com/user-attachments/assets/8a34f06e-99b2-4f7b-abad-503257db9e1b" />
