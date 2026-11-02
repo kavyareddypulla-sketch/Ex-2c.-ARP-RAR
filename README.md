@@ -126,7 +126,7 @@ s.close()
 
 
 ## OUPUT -RARP
-##SERVER
+## SERVER
 
 <img width="782" height="270" alt="image" src="https://github.com/user-attachments/assets/ed537a58-b455-4deb-8d7c-a95d47bb1cc0" />
 
