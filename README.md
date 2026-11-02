@@ -79,6 +79,40 @@ while True:
     ip = s.recv(1024).decode()
     print("Logical Address:", ip)
 ```
+## CLIENT
+```
+import socket
+
+s = socket.socket()
+s.bind(('localhost', 9000))
+s.listen(5)
+
+print("Client is waiting for connection...")
+
+c, addr = s.accept()
+print("Client connected successfully")
+
+address = {
+    "6A:08:AA:C2": "192.168.1.100",
+    "8A:BC:E3:FA": "192.168.1.99"
+}
+
+while True:
+    mac = c.recv(1024).decode()
+
+    if not mac:
+        break
+
+    print("MAC Address received:", mac)
+
+    ip = address.get(mac, "Not Found")
+    c.send(ip.encode())
+
+    print("IP Address sent:", ip)
+
+c.close()
+s.close()
+```
 
 
 ## OUPUT -RARP
@@ -86,6 +120,7 @@ while True:
 <img width="782" height="270" alt="image" src="https://github.com/user-attachments/assets/ed537a58-b455-4deb-8d7c-a95d47bb1cc0" />
 
 ## CLIENT
+
 <img width="782" height="167" alt="image" src="https://github.com/user-attachments/assets/8a34f06e-99b2-4f7b-abad-503257db9e1b" />
 
 ## RESULT
