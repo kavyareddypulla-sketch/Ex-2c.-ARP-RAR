@@ -4,15 +4,25 @@ To write a python program for simulating ARP/RARP protocols using TCP.
 ## ALGORITHM: 
 ## Client:
 Start the program
+
 Using socket connection is established between client and server.
+
 Get the IP address to be converted into MAC address.
+
 Send this IP address to server.
+
 Server returns the MAC address to client.
+
 ## Server:
+
 Start the program
+
 Accept the socket which is created by the client.
+
 Server maintains the table in which IP and corresponding MAC addresses are stored.
+
 Read the IP address which is send by the client.
+
 Map the IP address with its MAC address and return the MAC address to client. P
 
 ## PROGRAM - ARP
@@ -117,6 +127,7 @@ s.close()
 
 ## OUPUT -RARP
 ##SERVER
+
 <img width="782" height="270" alt="image" src="https://github.com/user-attachments/assets/ed537a58-b455-4deb-8d7c-a95d47bb1cc0" />
 
 ## CLIENT
