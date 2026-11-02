@@ -11,8 +11,7 @@ Server returns the MAC address to client.
 ## Server:
 Start the program
 Accept the socket which is created by the client.
-Server maintains t<img width="745" height="240" alt="image" src="https://github.com/user-attachments/assets/25b3bd4e-6b88-4622-9fa9-11f16ff6b123" />
-he table in which IP and corresponding MAC addresses are stored.
+Server maintains the table in which IP and corresponding MAC addresses are stored.
 Read the IP address which is send by the client.
 Map the IP address with its MAC address and return the MAC address to client. P
 
